@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aiesecdelhiiit.discoverdelhi"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name=".Welcome"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogIn"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Choose"
+            android:label="@string/title_activity_choose"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".explore_delhi"
+            android:label="@string/title_activity_explore__delhi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".places_to_eat"
+            android:label="@string/title_activity_places_to_eat"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Shop_Delhi"
+            android:label="@string/title_activity_shop__delhi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Transport_Delhi"
+            android:label="@string/title_activity_transport__delhi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".emergencies"
+            android:label="@string/title_activity_emergencies"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Complains"
+            android:label="@string/title_activity_complains"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".redImg"
+            android:label="@string/title_activity_red_img"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".loimg"
+            android:label="@string/title_activity_loimg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LotusTemple"
+            android:label="@string/title_activity_lotus_temple"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".qutuImg"
+            android:label="@string/title_activity_qutu_img"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".QutubMinar"
+            android:label="@string/title_activity_qutub_minar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".aksImg"
+            android:label="@string/title_activity_aks_img"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Akshardham"
+            android:label="@string/title_activity_akshardham"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Himg"
+            android:label="@string/title_activity_himg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Iimg"
+            android:label="@string/title_activity_iimg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Bimg"
+            android:label="@string/title_activity_bimg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BanglaSahib"
+            android:label="@string/title_activity_bangla_sahib"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Jimg"
+            android:label="@string/title_activity_jimg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Jama_Masjid"
+            android:label="@string/title_activity_jama__masjid"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".JanImg"
+            android:label="@string/title_activity_jan_img"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Jantar_Mantar"
+            android:label="@string/title_activity_jantar__mantar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Pimg"
+            android:label="@string/title_activity_pimg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Nmi"
+            android:label="@string/title_activity_nmi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".National_Museum"
+            android:label="@string/title_activity_national__museum"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".iskg"
+            android:label="@string/title_activity_iskg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".iskcon_temple"
+            android:label="@string/title_activity_iskcon_temple"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Nizi"
+            android:label="@string/title_activity_nizi" >
+        </activity>
+        <activity
+            android:name=".Nizamuddin_Dargah"
+            android:label="@string/title_activity_nizamuddin__dargah"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Gani"
+            android:label="@string/title_activity_gani"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Gandhi_Smriti"
+            android:label="@string/title_activity_gandhi__smriti"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Raili"
+            android:label="@string/title_activity_raili"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".National_Rail_Museum"
+            android:label="@string/title_activity_national__rail__museum"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ZooI"
+            android:label="@string/title_activity_zoo_i"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".National_Zoological_Park"
+            android:label="@string/title_activity_national__zoological__park"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GarI"
+            android:label="@string/title_activity_gar_i"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Garden_of_five_senses"
+            android:label="@string/title_activity_garden_of_five_senses"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Hkvi"
+            android:label="@string/title_activity_hkvi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Hauz_Khas_Village"
+            android:label="@string/title_activity_hauz__khas__village"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".agrImg"
+            android:label="@string/title_activity_agr_img"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AgrasenKiBaoli"
+            android:label="@string/title_activity_agrasen_ki_baoli"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sci"
+            android:label="@string/title_activity_sci"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".National_Science_Centre"
+            android:label="@string/title_activity_national__science__centre"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Kali"
+            android:label="@string/title_activity_kali"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Kalka_Mandir"
+            android:label="@string/title_activity_kalka__mandir"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Cathi"
+            android:label="@string/title_activity_cathi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Cathedral_Church"
+            android:label="@string/title_activity_cathedral__church"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Teeni"
+            android:label="@string/title_activity_teeni"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Teen_Murti_Bhavan"
+            android:label="@string/title_activity_teen__murti__bhavan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Rasi"
+            android:label="@string/title_activity_rasi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Rashtrapati_Bhavan"
+            android:label="@string/title_activity_rashtrapati__bhavan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Nehi"
+            android:label="@string/title_activity_nehi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Nehru_Planetarium"
+            android:label="@string/title_activity_nehru__planetarium"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Purana_Qila"
+            android:label="@string/title_activity_purana__qila"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MetroMap"
+            android:label="@string/title_activity_metro_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".IndiaGate"
+            android:label="@string/title_activity_india_gate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".imp_places_Delhi"
+            android:label="@string/title_activity_imp_places__delhi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Htomb"
+            android:label="@string/title_activity_htomb"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Cycle_rickshaw"
+            android:label="@string/title_activity_cycle_rickshaw"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Cabs"
+            android:label="@string/title_activity_cabs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Buses"
+            android:label="@string/title_activity_buses"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Auto_Rickshaw"
+            android:label="@string/title_activity_auto__rickshaw"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RedFort"
+            android:label="@string/title_activity_red_fort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".awards"
+            android:label="@string/title_activity_awards"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".impact"
+            android:label="@string/title_activity_impact"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+    </application>
+
+</manifest>

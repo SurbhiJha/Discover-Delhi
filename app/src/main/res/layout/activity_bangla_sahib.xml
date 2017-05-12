@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="#FF234E"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.BanglaSahib">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Gurudwara Bangla Sahib; is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi, India and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the pool inside its complex, known as the Sarovar."
+        android:id="@+id/bangla"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Take me there"
+        android:onClick="Process"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:id="@+id/sahib"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

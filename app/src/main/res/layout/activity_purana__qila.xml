@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="#26f545"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.Purana_Qila">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Purana Qila, is one the oldest forts in Delhi. Its current form was built by the Afghan king Sher Shah Suri, on a site which was perhaps that of Indraprastha, the legendary capital of the Pandavas. Sher Shah raised the citadel of Purana-Qal'a with an extensive city-area sprawling around it."
+        android:id="@+id/puranaQ"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Take me there"
+        android:onClick="Process"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:id="@+id/pqila"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

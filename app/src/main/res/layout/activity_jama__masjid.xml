@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="#5AFF5A"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.Jama_Masjid">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Jama Masjid of Delhi, is one of the largest mosques in India.
+
+It was built by Mughal emperor Shah Jahan between 1644 and 1656 at a cost of 1 million rupees, and was inaugurated by an imam from Bukhara, present-day Uzbekistan. The mosque was completed in 1656 AD with three great gates, four towers and two 40 m high minarets constructed of strips of red sandstone and white marble. "
+        android:id="@+id/jama"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Take me there"
+        android:onClick="Process"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:id="@+id/masjid"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

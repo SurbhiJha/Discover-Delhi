@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="#FFFF3F"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.iskcon_temple">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Sri Sri Radha Parthasarathi Mandir, generally known as the ISKCON Delhi temple, is a well known Vaishnav temple of Lord Krishna and Radharani in the form of Radha Parthasarathi. "
+        android:id="@+id/iskcon"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Take me there"
+        android:onClick="Process"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:id="@+id/con"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+
+    android:background="#2A458B"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.Rashtrapati_Bhavan">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="The Rashtrapati Bhavan, Presidential Residence is the official home of the President of India, located in New Delhi, India. It may refer to only the mansion (the 340-room main building) that has the president's official residence, halls, guest rooms and offices; it may also refer to the entire 130-hectare (320 acre) President Estate that additionally includes huge presidential gardens (Mughal Gardens), large open spaces, residences of bodyguards and staff, stables, other offices and utilities within its perimeter walls."
+        android:id="@+id/bhavan"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Take me there"
+        android:onClick="Process"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:id="@+id/rashtra"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

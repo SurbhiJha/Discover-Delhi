@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="#5A2A8B"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.Nizamuddin_Dargah">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Take me there"
+        android:onClick="Process"
+        android:textStyle="italic"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/niza"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Nizamuddin Dargah is the dargah (mausoleum) of one of the world's most famous Sufi saints, Nizamuddin Auliya (1238 - 1325 CE). Situated in the Nizamuddin West area of Delhi, the dargah is visited by thousands of Muslims every week, and sees a fair share of Hindus, Christians and people from other religions. The tombs of poet Amir Khusro and Mughal princess Jehan Ara Begum are also located within the Nizamuddin Dargah complex, and Inayat Khan's tomb is just around the corner."
+        android:id="@+id/nizamuddin"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+
+        />
+</RelativeLayout>

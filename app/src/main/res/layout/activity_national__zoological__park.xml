@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:background="#FF7F00"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.National_Zoological_Park">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="The National Zoological Park is a 176-acre zoo near the Old Fort in Delhi, India. A 16th-century citadel, a sprawling green island and a motley collection of animals and birds, all in the middle of a burgeoning urban Delhi."
+        android:id="@+id/zooo"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Take me there"
+        android:onClick="Process"
+        android:textStyle="italic"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/nationalZoo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

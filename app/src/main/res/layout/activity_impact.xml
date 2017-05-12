@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#bfff00"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.impact">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Founded in 1981, by Mr. Arjun Bhagat (CEO Calibrated Group), AIESEC Delhi IIT (a.k.a. DI), is the pioneering Local Committee of AIESEC in India. Since its inception, AIESEC in Delhi IIT has played a key role in the success of AIESEC in India."
+        android:id="@+id/textView28"
+        android:textColor="#003300"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With a vision of creating leaders for a positive impact on society, AIESEC in Delhi IIT constantly strives to develop the potential of young individuals by providing them with ample growth opportunities."
+        android:id="@+id/textView31"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#003300"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here in AIESEC Delhi IIT, the membership seeks to outer form expectations and challenges perceptions."
+        android:id="@+id/textView29"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#003300"
+        android:layout_below="@+id/textView31"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Through the various learning networks run by AIESEC Delhi IIT, our members develop a global perspective and lead the change they want to see."
+        android:id="@+id/textView32"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#003300"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.aiesecdelhiiit.discoverdelhi.Auto_Rickshaw">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autos are a great way of seeing a city. They are less expensive than taxis and unlike buses, they take you to the doorstep of your destination."
+        android:id="@+id/textView3"
+        android:textSize="22dp"
+        android:textColor="#000"
+        android:background="#99ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" Approximate prices: Rs 25/- for first fall of 2 Kilometer (upon downing the meter) and thereafter Rs. 8/- per Kilometer for every additional Kilometer"
+        android:id="@+id/textView290"
+        android:textSize="22dp"
+        android:textColor="#000"
+        android:background="#99ffffff"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="150dp"/>
+
+</RelativeLayout>
